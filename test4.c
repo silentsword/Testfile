@@ -15,7 +15,11 @@ int main()
 		printf("Failed to create a group.\n");
     if(IGCreate(2) == 0)
 		printf("Failed to create a group.\n");
-
+//the amount of the group cannot greater than 20.
+    for(int i =0;i<18;i++){
+    	if(IGCreate(i+3) == 0)
+    	printf("Failed to create a group at creating group %d ,\n",i+3);
+    }
 	
 	//test IGPublisher
 	pid_t pid, pid2,pid3,pid4;
