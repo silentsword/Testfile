@@ -3,7 +3,7 @@
 
 int main()
 {
-	//test IGLookup
+    //test IGLookup
 	
 	
     //test IGCreate
