@@ -53,21 +53,9 @@ int main()
 		
 	}
 	
-	/*
-    if(IGPublisher(0) == 0)
-	printf("Failed to declare as a publisher.\n");
-    if(IGPublisher(0) == 0)
-	printf("Failed to declare as a publisher.\n");
-    if(IGPublisher(0) == 0)
-	printf("Failed to declare as a publisher.\n");
-	*/
-
-	
 	//test IGPublish
 	
 	
 	//test IGRetrive
-	
-	
 	
 }
