@@ -73,6 +73,7 @@ int main()
 			printf("Failed to declare as a publisher.\n");
 		//test IGPublish
 		IGPublish(0, "message21");
+		IGPublish(1, "message22"); //error message will occur
 		
 	}
 	//test IGPublish
