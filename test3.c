@@ -4,8 +4,8 @@
 
 int main()
 {
-    if(IGCreate(0) == 0)
+    if(IGCreate(1) == 0)
 		printf("Failed to create a group.\n");
-	IGSubscriber(0);
-	IGSubscribe(0); //empty buffer, error message
+	IGSubscriber(1);
+	IGSubscribe(1); //empty buffer, error message
 }

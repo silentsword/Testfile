@@ -4,13 +4,13 @@
 
 int main()
 {
-    if(IGCreate(0) == 0)
+    if(IGCreate(1) == 0)
 		printf("Failed to create a group.\n");
-	IGPublisher(0);
-	IGPublish(0, "message12");
-	IGPublish(0, "message12");
-	IGPublish(0, "message12");
-	IGPublish(0, "message12");
-	IGPublish(0, "message12");
-	IGPublish(0, "message12"); //buffer is full, error message
+	IGPublisher(1);
+	IGPublish(1, "message12");
+	IGPublish(1, "message12");
+	IGPublish(1, "message12");
+	IGPublish(1, "message12");
+	IGPublish(1, "message12");
+	IGPublish(1, "message12"); //buffer is full, error message
 }
