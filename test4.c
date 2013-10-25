@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unisted.h>
+#include <sys/wait.h>
 
 int main()
 {
