@@ -5,7 +5,6 @@ int main()
 {
     //test IGLookup
 	
-	
     //test IGCreate
     if(IGCreate(0) == 0)
 		printf("Failed to create a group.\n");
