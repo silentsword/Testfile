@@ -64,12 +64,15 @@ int main()
     				printf("Failed to declare as a publisher.\n");
     			if(IGPublisher(1) == 0)
     				printf("Failed to declare as a publisher.\n");
+				//test IGPublish
+				IGPublish(0, "message11");
+				IGPublish(1, "message12");
     		}
     }else{ //test IGPublisher
 		if(IGPublisher(0) == 0)
 			printf("Failed to declare as a publisher.\n");
 		//test IGPublish
-		IGPublish(0, "How are you?");
+		IGPublish(0, "message21");
 		
 	}
 	//test IGPublish
