@@ -51,12 +51,15 @@ int main()
     					printf("Failed to declare as a publisher.\n");
     				if(IGSubscriber(1) == 0)
     					printf("Failed to declare as a publisher.\n");
+					IGSubscribe(0);
+					IGSubscribe(1);
     			}
     		}else{ //test IGSubscriber
     			if(IGSubscriber(0) == 0)
     			    printf("Failed to declare as a publisher.\n");
-    			if(IGSubscriber(1) == 0)
-    			    printf("Failed to declare as a publisher.\n");
+				//test IGSubscribe
+				IGSubscribe(0);
+				IGSubscribe(1); //error message will occur
     		}
     	}
     		else{ //test IGPublisher
